@@ -51,35 +51,31 @@ const FINNISH_PHRASES = [
 ];
 
 const WORD_BANK: Word[] = [
-  { base: "ride", past: "rode", participle: "ridden", icon: "🚴", stage: 0 },
-  { base: "ring", past: "rang", participle: "rung", icon: "🔔", stage: 0 },
-  { base: "deal", past: "dealt", participle: "dealt", icon: "🤝", stage: 0 },
-  { base: "rise", past: "rose", participle: "risen", icon: "🌅", stage: 0 },
-  { base: "feed", past: "fed", participle: "fed", icon: "🍽️", stage: 0 },
-  { base: "blow", past: "blew", participle: "blown", icon: "🌬️", stage: 0 },
-  { base: "run", past: "ran", participle: "run", icon: "🏃", stage: 0 },
-  { base: "say", past: "said", participle: "said", icon: "💬", stage: 0 },
-  { base: "feel", past: "felt", participle: "felt", icon: "❤️", stage: 0 },
-  { base: "sew", past: "sewed", participle: "sewn", icon: "🪡", stage: 0 },
-  { base: "fight", past: "fought", participle: "fought", icon: "🥊", stage: 0 },
-  { base: "break", past: "broke", participle: "broken", icon: "💥", stage: 0 },
-  { base: "shake", past: "shook", participle: "shaken", icon: "🫨", stage: 0 },
-  { base: "shine", past: "shone", participle: "shone", icon: "✨", stage: 0 },
-  { base: "find", past: "found", participle: "found", icon: "🔎", stage: 0 },
-  { base: "sink", past: "sank", participle: "sunk", icon: "🚢", stage: 0 },
-  { base: "have", past: "had", participle: "had", icon: "🎒", stage: 0 },
-  { base: "choose", past: "chose", participle: "chosen", icon: "✅", stage: 0 },
-  { base: "shoot", past: "shot", participle: "shot", icon: "🎯", stage: 0 },
-  { base: "show", past: "showed", participle: "shown", icon: "🖼️", stage: 0 },
-  { base: "hear", past: "heard", participle: "heard", icon: "👂", stage: 0 },
-  { base: "sing", past: "sang", participle: "sung", icon: "🎤", stage: 0 },
-  { base: "hit", past: "hit", participle: "hit", icon: "👊", stage: 0 },
-  { base: "sit", past: "sat", participle: "sat", icon: "🪑", stage: 0 },
-  { base: "hold", past: "held", participle: "held", icon: "✋", stage: 0 },
-  { base: "speak", past: "spoke", participle: "spoken", icon: "🗣️", stage: 0 },
+  { base: "spit", past: "spat", participle: "spat", icon: "💦", stage: 0 },
+  { base: "steal", past: "stole", participle: "stolen", icon: "🕵️", stage: 0 },
+  { base: "hurt", past: "hurt", participle: "hurt", icon: "🤕", stage: 0 },
+  { base: "keep", past: "kept", participle: "kept", icon: "📦", stage: 0 },
+  { base: "do", past: "did", participle: "done", icon: "✅", stage: 0 },
+  { base: "stick", past: "stuck", participle: "stuck", icon: "📌", stage: 0 },
+  { base: "strike", past: "struck", participle: "struck", icon: "⚡", stage: 0 },
+  { base: "lay", past: "laid", participle: "laid", icon: "🪺", stage: 0 },
+  { base: "lead", past: "led", participle: "led", icon: "🧭", stage: 0 },
+  { base: "drink", past: "drank", participle: "drunk", icon: "🥤", stage: 0 },
+  { base: "swear", past: "swore", participle: "sworn", icon: "🤬", stage: 0 },
+  { base: "swim", past: "swam", participle: "swum", icon: "🏊", stage: 0 },
+  { base: "leave", past: "left", participle: "left", icon: "🚪", stage: 0 },
+  { base: "lend", past: "lent", participle: "lent", icon: "🤲", stage: 0 },
+  { base: "drive", past: "drove", participle: "driven", icon: "🚗", stage: 0 },
+  { base: "swing", past: "swung", participle: "swung", icon: "🏌️", stage: 0 },
+  { base: "tear", past: "tore", participle: "torn", icon: "🧻", stage: 0 },
+  { base: "let", past: "let", participle: "let", icon: "🟢", stage: 0 },
+  { base: "make", past: "made", participle: "made", icon: "🛠️", stage: 0 },
+  { base: "eat", past: "ate", participle: "eaten", icon: "🍽️", stage: 0 },
+  { base: "mean", past: "meant", participle: "meant", icon: "💡", stage: 0 },
+  { base: "meet", past: "met", participle: "met", icon: "🤝", stage: 0 },
 ];
 
-const WORD_BANK_VERSION = '2026-03-21-v2';
+const WORD_BANK_VERSION = '2026-03-21-v3';
 
 // --- Custom Hook for Orientation ---
 function useOrientation() {
