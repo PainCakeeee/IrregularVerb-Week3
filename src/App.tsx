@@ -80,7 +80,7 @@ const WORD_BANK: Word[] = [
   { base: "choose", past: "chose", participle: "chosen", icon: "🎯", stage: 0 },
 ];
 
-const WORD_BANK_VERSION = '2026-03-21-v3';
+const WORD_BANK_VERSION = '2026-03-26-v3-updated';
 
 // --- Custom Hook for Orientation ---
 function useOrientation() {
