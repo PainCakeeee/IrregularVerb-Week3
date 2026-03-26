@@ -73,6 +73,11 @@ const WORD_BANK: Word[] = [
   { base: "eat", past: "ate", participle: "eaten", icon: "🍽️", stage: 0 },
   { base: "mean", past: "meant", participle: "meant", icon: "💡", stage: 0 },
   { base: "meet", past: "met", participle: "met", icon: "🤝", stage: 0 },
+  { base: "begin", past: "began", participle: "begun", icon: "🚀", stage: 0 },
+  { base: "bite", past: "bit", participle: "bitten", icon: "🦷", stage: 0 },
+  { base: "blow", past: "blew", participle: "blown", icon: "🌬️", stage: 0 },
+  { base: "break", past: "broke", participle: "broken", icon: "💔", stage: 0 },
+  { base: "choose", past: "chose", participle: "chosen", icon: "🎯", stage: 0 },
 ];
 
 const WORD_BANK_VERSION = '2026-03-21-v3';
